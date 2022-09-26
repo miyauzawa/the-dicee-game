@@ -6,7 +6,7 @@ function rollDices() {
   const numsB = ["1b", "2b", "3b", "4b", "5b", "6b"];
 
   reset();
-  
+
   let animation = setInterval(showRamdomDice, 50);
   setTimeout(function(){
     clearInterval(animation);
@@ -50,3 +50,4 @@ function rollDices() {
     }
   }
 }
+aaaa
