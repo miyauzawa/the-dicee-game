@@ -1,4 +1,4 @@
-
+$(".logo").click(() => {location.reload();});
 
 function rollDices() {
 
@@ -46,8 +46,7 @@ function rollDices() {
     }
     if($(".draw").hasClass("hidden")!= true) {
         $(".draw").addClass("hidden");
-        $(".btn-roll").html("Roll the Dices");
+        $(".btn-roll").html("Roll");
     }
   }
 }
-aaaa
